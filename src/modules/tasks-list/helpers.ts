@@ -4,7 +4,13 @@ import type { TagId, Task, TasksFormFilters, TaskTag } from './types';
 export const filterTaskTagsByIds = (
     tagIds: TagId[],
     tags: TaskTag[]
-): TaskTag[] => tags.filter(tag => tagIds?.length && tagIds.includes(tag.id));
+): TaskTag[] => {
+    if (!tagIds?.length) {
+        return [];
+    }
+
+    return tags.filter(tag => tagIds.includes(tag.id));
+};
 
 export const filterTasks = (
     tasks: Task[],

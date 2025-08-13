@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TaskCard snapshot check should render correctly according to snapshot 1`] = `
+<div>
+  <div
+    class="ant-card ant-card-bordered ant-card-small sc-bRKDuR tLpHK css-dev-only-do-not-override-l9pxc0"
+  >
+    <div
+      class="ant-card-body"
+    >
+      <div
+        class="ant-flex css-dev-only-do-not-override-l9pxc0 ant-flex-align-stretch ant-flex-gap-small ant-flex-vertical"
+      >
+        <h5
+          class="ant-typography css-dev-only-do-not-override-l9pxc0"
+          style="margin: 0px;"
+        >
+          title
+        </h5>
+        <div
+          class="ant-flex css-dev-only-do-not-override-l9pxc0 ant-flex-wrap-wrap"
+          style="gap: 4px 0;"
+        >
+          <span
+            class="ant-tag ant-tag-has-color ant-tag-borderless css-dev-only-do-not-override-l9pxc0"
+          >
+            tag-1
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
