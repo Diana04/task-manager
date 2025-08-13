@@ -11,11 +11,11 @@ export const TASK_TAGS_INITIAL_LIST: TaskTag[] = [
     {
         id: 'task-id-2',
         title: 'Chores',
-        color: '#2db7f5'
+        color: '#2db7f5',
     },
     {
         id: URGENT_TASK_ID,
         title: 'Urgent',
         color: '#ff0000',
-    }
+    },
 ];
