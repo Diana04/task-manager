@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`TaskCard snapshot check should render correctly according to snapshot 1`] = `
+exports[`TaskCard render check should render correctly according to snapshot 1`] = `
 <div>
   <div
     class="ant-card ant-card-bordered ant-card-small sc-bRKDuR tLpHK css-dev-only-do-not-override-l9pxc0"

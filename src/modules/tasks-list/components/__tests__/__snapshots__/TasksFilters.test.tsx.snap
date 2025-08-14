@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TasksFilters snapshot check should render correctly according to snapshot 1`] = `
+<div>
+  Filters
+  <div
+    class="ant-checkbox-group css-dev-only-do-not-override-l9pxc0"
+  >
+    <label
+      class="ant-checkbox-wrapper css-dev-only-do-not-override-l9pxc0"
+    >
+      <span
+        class="ant-checkbox ant-wave-target css-dev-only-do-not-override-l9pxc0"
+      >
+        <input
+          class="ant-checkbox-input"
+          type="checkbox"
+          value="tag-1"
+        />
+        <span
+          class="ant-checkbox-inner"
+        />
+      </span>
+      <span
+        class="ant-checkbox-label"
+      >
+        tag-1
+      </span>
+    </label>
+    <label
+      class="ant-checkbox-wrapper ant-checkbox-wrapper-checked css-dev-only-do-not-override-l9pxc0"
+    >
+      <span
+        class="ant-checkbox ant-wave-target css-dev-only-do-not-override-l9pxc0 ant-checkbox-checked"
+      >
+        <input
+          checked=""
+          class="ant-checkbox-input"
+          type="checkbox"
+          value="tag-2"
+        />
+        <span
+          class="ant-checkbox-inner"
+        />
+      </span>
+      <span
+        class="ant-checkbox-label"
+      >
+        tag-2
+      </span>
+    </label>
+  </div>
+</div>
+`;

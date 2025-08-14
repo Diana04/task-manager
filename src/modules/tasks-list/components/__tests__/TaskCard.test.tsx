@@ -48,7 +48,7 @@ const setupComponent = (render: Function, props: any = {}) => {
 };
 
 describe('TaskCard', () => {
-    describe('snapshot check', () => {
+    describe('render check', () => {
         it('should render correctly according to snapshot', () => {
             const { instance } = setupComponent(render, {});
             expect(instance.container).toMatchSnapshot();
