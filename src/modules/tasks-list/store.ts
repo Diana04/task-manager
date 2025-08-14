@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
 import { create } from 'zustand';
-import { persist, devtools, createJSONStorage } from 'zustand/middleware';
+import { persist, devtools } from 'zustand/middleware';
 import { immer } from 'zustand/middleware/immer';
 import type { TagId, Task, TaskId, TasksFormFilters, TaskTag } from './types';
 import { TASK_TAGS_INITIAL_LIST } from './constants';
@@ -66,9 +66,6 @@ export const useTasksStore = create<TasksState & TasksStateActions>()(
                     }),
             }))
         ),
-        {
-            name: TASKS_SESSION_STORAGE_NAME,
-            storage: createJSONStorage(() => sessionStorage),
-        }
+        { name: TASKS_SESSION_STORAGE_NAME }
     )
 );

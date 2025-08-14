@@ -19,9 +19,17 @@ export default tseslint.config([
             ecmaVersion: 2020,
             globals: globals.browser,
         },
+    },
+    {
+        files: ['**/*.test.{js,jsx,ts,tsx}'],
+        languageOptions: {
+            globals: {
+                ...globals.jest,
+            },
+        },
         rules: {
-            '@typescript-eslint/no-explicit-any': 'warn',
-            '@typescript-eslint/no-unsafe-function-type': 'warn',
+            '@typescript-eslint/no-explicit-any': 'off',
+            '@typescript-eslint/no-unsafe-function-type': 'off',
         },
     },
 ]);
